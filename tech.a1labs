@@ -1,0 +1,178 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.6.0
+Flutter extension: 3.6.0 (not activated)
+VS Code: 1.39.2
+Platform: win
+Workspace type: Flutter
+Multi-root?: false
+Dart SDK:
+    Loc: C:\src\flutter\bin\cache\dart-sdk
+    Ver: 2.5.0-edge.1ef83b86ae637ffe7359173804cbc6d3fa25e6db
+Flutter SDK:
+    Loc: C:\src\flutter
+    Ver: 1.9.1+hotfix.6
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Sun Nov 03 2019 [17:18:15 GMT+0530 (India Standard Time)] Log file started
+[5:18:15 PM] [FlutterDaemon] [Info] Spawning C:\src\flutter\bin\flutter.bat with args ["daemon"]
+[5:18:15 PM] [FlutterDaemon] [Info] ..  in C:\src\flutter
+[5:18:15 PM] [FlutterDaemon] [Info]     PID: 956
+[5:18:15 PM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[5:18:22 PM] [FlutterDaemon] [Info] <== Starting device daemon...
+[5:18:22 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.5.3","pid":11760}}]
+[5:18:22 PM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[5:18:25 PM] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
+[5:18:25 PM] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[5:18:25 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"Android SDK built for x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_XL_API_27"}}]
+[5:18:25 PM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\iblood_app"}}]
+[5:18:25 PM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["ios","android"]}}]
+[5:18:48 PM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\iblood_app"}}]
+[5:18:48 PM] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["ios","android"]}}]
+[5:18:49 PM] [General] [Warn] Did not find session bc1b824e-d1e1-4edf-ac76-ca941a0d778f to handle dart.launching. There were 0 sessions:
+[5:18:49 PM] [General] [Warn] Event will be queued and processed when the session start event fires
+[5:21:03 PM] [FlutterRun] [Error] Error: ADB exited with exit code 1
+[5:21:03 PM] [FlutterRun] [Error] 
+Performing Streamed Install
+
+adb: failed to install D:\projects\flutter\iblood_app\build\app\outputs\apk\app.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+[5:23:52 PM] [General] [Error] Error during `edit.format`: source contains syntax errors.
+[5:24:03 PM] [FlutterRun] [Error] 
+Compiler message:
+[5:24:03 PM] [FlutterRun] [Error] lib/home_page.dart:39:41: Error: Getter not found: 'chartData'.
+                  BloodStats(chartData: chartData),
+                                        ^^^^^^^^^
+[5:24:03 PM] [FlutterRun] [Error] lib/home_page.dart:57:45: Error: Getter not found: 'requests'.
+[5:24:03 PM] [FlutterRun] [Error] 
+                    children: List.generate(requests.length,
+                                            ^^^^^^^^
+lib/home_page.dart:58:48: Error: Getter not found: 'requests'.
+                        (i) => BloodCard(item: requests[i])).toList(),
+                                               ^^^^^^^^
+[5:24:03 PM] [FlutterRun] [Error] lib/home_page.dart:39:41: Error: The getter 'chartData' isn't defined for the class '_HomePageState'.
+[5:24:03 PM] [FlutterRun] [Error] 
+ - '_HomePageState' is from 'package:iblood_app/home_page.dart' ('lib/home_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'chartData'.
+                  BloodStats(chartData: chartData),
+                                        ^^^^^^^^^
+[5:24:03 PM] [FlutterRun] [Error] 
+[5:24:03 PM] [FlutterRun] [Error] lib/home_page.dart:57:45: Error: The getter 'requests' isn't defined for the class '_HomePageState'.
+ - '_HomePageState' is from 'package:iblood_app/home_page.dart' ('lib/home_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'requests'.
+[5:24:03 PM] [FlutterRun] [Error] 
+                    children: List.generate(requests.length,
+                                            ^^^^^^^^
+[5:24:03 PM] [FlutterRun] [Error] lib/home_page.dart:58:48: Error: The getter 'requests' isn't defined for the class '_HomePageState'.
+[5:24:03 PM] [FlutterRun] [Error] 
+ - '_HomePageState' is from 'package:iblood_app/home_page.dart' ('lib/home_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'requests'.
+                        (i) => BloodCard(item: requests[i])).toList(),
+[5:24:03 PM] [FlutterRun] [Error]                                                ^^^^^^^^
+[5:29:03 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:29:03 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:29:03 PM] [FlutterRun] [Error] Could not update files on device: FileSystemException: Cannot open file, path = 'D:\projects\flutter\iblood_app\assets\data.json' (OS Error: The system cannot find the file specified.
+, errno = 2)
+[5:29:05 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:29:05 PM] [FlutterRun] [Error] 
+[5:29:06 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:29:06 PM] [FlutterRun] [Error] 
+[5:30:21 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:30:21 PM] [FlutterRun] [Error] 
+Compiler message:
+[5:30:21 PM] [FlutterRun] [Error] 
+lib/blood_card.dart:35:27: Error: The method '[]' isn't defined for the class 'Request'.
+[5:30:21 PM] [FlutterRun] [Error] 
+ - 'Request' is from 'package:iblood_app/models/Request.dart' ('lib/models/Request.dart').
+[5:30:21 PM] [FlutterRun] [Error] Try correcting the name to the name of an existing method, or defining a method named '[]'.
+                      item['priority'].toUpperCase(),
+[5:30:21 PM] [FlutterRun] [Error]                           ^^
+lib/blood_card.dart:52:27: Error: The method '[]' isn't defined for the class 'Request'.
+ - 'Request' is from 'package:iblood_app/models/Request.dart' ('lib/models/Request.dart').
+[5:30:21 PM] [FlutterRun] [Error] 
+Try correcting the name to the name of an existing method, or defining a method named '[]'.
+                      item['bloodType'],
+                          ^^
+[5:30:21 PM] [FlutterRun] [Error] lib/blood_card.dart:70:27: Error: The method '[]' isn't defined for the class 'Request'.
+ - 'Request' is from 'package:iblood_app/models/Request.dart' ('lib/models/Request.dart').
+Try correcting the name to the name of an existing method, or defining a method named '[]'.
+                      item['name'],
+                          ^^
+lib/blood_card.dart:78:30: Error: The method '[]' isn't defined for the class 'Request'.
+ - 'Request' is from 'package:iblood_app/models/Request.dart' ('lib/models/Request.dart').
+[5:30:21 PM] [FlutterRun] [Error] Try correcting the name to the name of an existing method, or defining a method named '[]'.
+                      "${item['age']} . ${item['gender']} . ${item['distance']}km . ${item['time']}hrs",
+                             ^^
+lib/blood_card.dart:78:47: Error: The method '[]' isn't defined for the class 'Request'.
+ - 'Request' is from 'package:iblood_app/models/Request.dart' ('lib/models/Request.dart').
+Try correcting the name to the name of an existing method, or defining a method named '[]'.
+[5:30:21 PM] [FlutterRun] [Error]                       "${item['age']} . ${item['gender']} . ${item['distance']}km . ${item['time']}hrs",
+                                              ^^
+lib/blood_card.dart:78:67: Error: The method '[]' isn't defined for the class 'Request'.
+ - 'Request' is from 'package:iblood_app/models/Request.dart' ('lib/models/Request.dart').
+Try correcting the name to the name of an existing method, or defining a method named '[]'.
+                      "${item['age']} . ${item['gender']} . ${item['distance']}km . ${item['time']}hrs",
+[5:30:21 PM] [FlutterRun] [Error]                                                                   ^^
+lib/blood_card.dart:78:91: Error: The method '[]' isn't defined for the class 'Request'.
+ - 'Request' is from 'package:iblood_app/models/Request.dart' ('lib/models/Request.dart').
+Try correcting the name to the name of an existing method, or defining a method named '[]'.
+                      "${item['age']} . ${item['gender']} . ${item['distance']}km . ${item['time']}hrs",
+                                                                                          ^^
+[5:31:05 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:31:08 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:31:13 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:31:40 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:31:46 PM] [FlutterRun] [Error] Unable to get status of file "D:\projects\flutter\iblood_app\assets\data.json": file not found.
+[5:32:22 PM] [FlutterDaemon] [Info] ==> [{"id":"5","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\iblood_app"}}]
+[5:32:22 PM] [FlutterDaemon] [Info] <== [{"id":"5","result":{"platforms":["ios","android"]}}]
+[5:32:22 PM] [General] [Warn] Did not find session 7f733a0d-c42e-458b-95f1-ccd990a02ce4 to handle dart.launching. There were 0 sessions:
+[5:32:22 PM] [General] [Warn] Event will be queued and processed when the session start event fires
+[5:33:21 PM] [FlutterRun] [Error] Error: ADB exited with exit code 1
+[5:33:21 PM] [FlutterRun] [Error] Performing Streamed Install
+
+adb: failed to install D:\projects\flutter\iblood_app\build\app\outputs\apk\app.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+[5:33:26 PM] [FlutterRun] [Error] Error: ADB exited with exit code 1
+Performing Streamed Install
+
+adb: failed to install D:\projects\flutter\iblood_app\build\app\outputs\apk\app.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+Error: Failed to install APK again.
+[5:33:26 PM] [FlutterRun] [Error] Error launching application on Android SDK built for x86.
+[5:34:46 PM] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\iblood_app"}}]
+[5:34:46 PM] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["ios","android"]}}]
+[5:34:46 PM] [General] [Warn] Did not find session 98fb5aa4-157b-44db-b370-4404674ebbe9 to handle dart.launching. There were 0 sessions:
+[5:34:46 PM] [General] [Warn] Event will be queued and processed when the session start event fires
+[5:35:30 PM] [FlutterRun] [Error] Error: ADB exited with exit code 1
+[5:35:30 PM] [FlutterRun] [Error] 
+[5:35:30 PM] [FlutterRun] [Error] Performing Streamed Install
+
+adb: failed to install D:\projects\flutter\iblood_app\build\app\outputs\apk\app.apk: Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+[5:35:30 PM] [FlutterRun] [Error] Error launching application on Android SDK built for x86.
+[5:43:26 PM] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\iblood_app"}}]
+[5:43:26 PM] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["ios","android"]}}]
+[5:43:26 PM] [General] [Warn] Did not find session d4257865-e002-460b-af92-e9c5eb8c8837 to handle dart.launching. There were 0 sessions:
+[5:43:26 PM] [General] [Warn] Event will be queued and processed when the session start event fires
+[5:43:47 PM] [FlutterRun] [Error] Error 1 retrieving device properties for ro.product.cpu.abi:
+[5:43:47 PM] [FlutterRun] [Error] error: closed
+[5:43:50 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"Error 1 retrieving device properties for ro.product.cpu.abi:"}}]
+[5:43:50 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"error: device 'emulator-5554' not found\r\n"}}]
+[5:43:50 PM] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"emulator-5554","name":"Android SDK built for x86","platform":"android-arm","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null}}]
+[5:43:53 PM] [FlutterRun] [Error] error: device 'emulator-5554' not found
+[5:43:53 PM] [FlutterRun] [Error] 
+Failed to extract the most recent timestamp from the Android log: Exit code 1 from: C:\Users\nmani\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell -x logcat -v time -t 1.
+[5:43:53 PM] [FlutterRun] [Error] Unexpected failure from adb: Invalid argument(s): The source must not be null
+[5:43:53 PM] [FlutterRun] [Error] 
+Error launching application on Android SDK built for x86.
+[5:44:03 PM] [FlutterDaemon] [Info] ==> [{"id":"8","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\iblood_app"}}]
+[5:44:03 PM] [FlutterDaemon] [Info] <== [{"id":"8","result":{"platforms":["ios","android"]}}]
+[5:44:03 PM] [FlutterDaemon] [Info] ==> [{"id":"9","method":"emulator.getEmulators"}]
+[5:44:03 PM] [FlutterDaemon] [Info] <== [{"id":"9","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
+[5:44:04 PM] [FlutterDaemon] [Info] ==> [{"id":"10","method":"emulator.launch","params":{"emulatorId":"Pixel_3_XL_API_27"}}]
+[5:44:07 PM] [FlutterDaemon] [Info] <== [{"id":"10"}]
+[5:45:09 PM] [General] [Warn] Unable to launch due to no active device
+[5:45:17 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"Android SDK built for x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_XL_API_27"}}]
+[5:45:17 PM] [FlutterDaemon] [Info] ==> [{"id":"11","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\iblood_app"}}]
+[5:45:17 PM] [FlutterDaemon] [Info] <== [{"id":"11","result":{"platforms":["ios","android"]}}]
+[5:51:35 PM] [FlutterDaemon] [Info] ==> [{"id":"12","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\iblood_app"}}]
+[5:51:36 PM] [FlutterDaemon] [Info] <== [{"id":"12","result":{"platforms":["ios","android"]}}]
+[5:51:37 PM] [General] [Warn] Did not find session a48ab0d4-58c9-4225-8315-1bf9e0687f5f to handle dart.launching. There were 0 sessions:
+[5:51:37 PM] [General] [Warn] Event will be queued and processed when the session start event fires
